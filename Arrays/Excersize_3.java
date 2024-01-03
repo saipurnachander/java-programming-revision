@@ -48,8 +48,8 @@ public class Excersize_3 {
         }
         for (int i = 0;i<a1.length;i++){
             for (int j = 0;j<a1.length;j++){
-                if (a1[j] < a1[i]){
-                    min = a1[j];
+                if (a1[i] < a1[j]){
+                    min = a1[i];
                 }
             }
         }
