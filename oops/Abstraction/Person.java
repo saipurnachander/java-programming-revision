@@ -1,6 +1,7 @@
 package oops.Abstraction;
 
 public abstract class Person {
+    public static String name;
     String Name;
     String Gender;
     Person(String Name ,String Gender){

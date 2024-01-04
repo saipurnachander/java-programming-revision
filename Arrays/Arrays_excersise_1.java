@@ -8,8 +8,6 @@ public class Arrays_excersise_1 {
         return numbers; 
     }
     public static void main(String[] args) {
-        
-
         try (Scanner sc = new Scanner(System.in)) {
             int n = sc.nextInt();
             int arr_1[] = new int[n];
