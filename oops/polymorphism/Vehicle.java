@@ -16,6 +16,5 @@ class Testing_method_overriding{
         System.out.println("");
         bike_1 obj = new bike_1();
         obj.run();
-        
     }
 }

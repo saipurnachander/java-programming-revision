@@ -2,7 +2,7 @@ package Strings;
 import java.util.StringTokenizer;
 
 // import java.util.StringTokenizer;
-
+//StringTokenizer(name) ==> this creates object for name and it splits with space gap : " " as the default delimeter
 // import java.util.StringTokenizer;
 
 public class String_tokenizer {
@@ -13,9 +13,6 @@ public class String_tokenizer {
         StringTokenizer mt = new StringTokenizer(email,"@");
 
         System.out.println(nt.nextToken(" "));
-        
-        
-
         while (nt.hasMoreTokens()){
             System.out.println(nt.nextToken());
         }

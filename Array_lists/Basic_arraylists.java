@@ -14,14 +14,14 @@ public class Basic_arraylists {
     public static void main(String[] args) {
         ArrayList<String> fruits = new ArrayList<>();
         ArrayList<Integer> numbers = new ArrayList<>();
-        
+
         // add() method :
         fruits.add("orange");
         numbers.add(1);
         fruits.add("Apple");
         numbers.add(2);
         fruits.add("Banana");
-        numbers.add(3);
+        numbers.add(3);      
 
         // set() method ---> changing the item
 
@@ -31,7 +31,7 @@ public class Basic_arraylists {
         // remove() method ---> removing item from list
 
         fruits.remove("Banana");
-
+        fruits.add("grapes");
         System.out.println(fruits);
         System.out.println(numbers);
         System.out.println(numbers.size());

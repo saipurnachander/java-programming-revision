@@ -11,5 +11,4 @@ public class Excersize_1 {
             System.out.println(" sum of row "+(i+1) + ":"+sum);
         } 
     }
-    
 }
